@@ -1,0 +1,205 @@
+{
+  "title": "Agentic Flashcards",
+  "cards": [
+    {
+      "front": "What three major functions constitute the 'core agent loop'?",
+      "back": "Observation, Reasoning (Think), and Action (Act)."
+    },
+    {
+      "front": "In the core agent loop, what is the 'Observation' step responsible for?",
+      "back": "Reading context including files, previous tool calls, system prompts, and multimodal data."
+    },
+    {
+      "front": "The 'Reasoning' step in an agent workflow allows for what three key aspects of human control?",
+      "back": "Interpretability, accountability, and steerability."
+    },
+    {
+      "front": "What is the 'Definition of Done' in the context of AI agent prompting?",
+      "back": "The series of technical specifications and constraints that signal the model to stop the loop."
+    },
+    {
+      "front": "How does an AI agent differ from a standard Large Language Model (LLM)?",
+      "back": "An agent combines an LLM with tools, a reasoning loop, and persistent memory."
+    },
+    {
+      "front": "Identify the primary strength of AI agents over humans in task execution according to Nick Saraev.",
+      "back": "The ability to parallelize multiple instances to try various approaches simultaneously."
+    },
+    {
+      "front": "What is 'Stochastic Multi-agent Consensus'?",
+      "back": "Spawning multiple agents with varied prompts to exploit statistical spread and find higher-quality ideas."
+    },
+    {
+      "front": "Term: Stochasticity",
+      "back": "Definition: Minor statistical variations in model output where the same prompt results in slightly different answers."
+    },
+    {
+      "front": "In a 'Sub-agent Verification Loop', what are the three distinct roles assigned to agents?",
+      "back": "Implementer, Reviewer, and Resolver."
+    },
+    {
+      "front": "Why is it beneficial to have a 'Reviewer' agent with fresh context in a verification loop?",
+      "back": "It avoids the 'sunk cost bias' and pollution from the reasoning steps of the initial implementation."
+    },
+    {
+      "front": "What four sections comprise a standard 'Prompt Contract'?",
+      "back": "Goals, Constraints, Format of Output, and Failure Conditions."
+    },
+    {
+      "front": "Concept: Reverse Prompting",
+      "back": "The agent asks the user clarifying questions to surface non-obvious assumptions before starting a task."
+    },
+    {
+      "front": "Which AI agent platform is noted for having the most interpretable reasoning tabs and orchestration capabilities?",
+      "back": "Claude Code (Anthropic)."
+    },
+    {
+      "front": "Which model family is described as having superior multimodal abilities and video understanding?",
+      "back": "Gemini (Google)."
+    },
+    {
+      "front": "What is the purpose of 'self-modifying agent instructions' in a file like $agents.mmd$?",
+      "back": "To allow the agent to rewrite its own rules to minimize errors and store preferences across sessions."
+    },
+    {
+      "front": "The 'Sequential Agent' pattern is best suited for what type of tasks?",
+      "back": "Highly structured, repeatable tasks where the order of operation is fixed like an assembly line."
+    },
+    {
+      "front": "What mechanism do sequential agents use to communicate information between sub-agents?",
+      "back": "A shared session state that acts as a scratchpad."
+    },
+    {
+      "front": "What is the primary benefit of the 'Parallel Agent' pattern?",
+      "back": "Significant reduction in latency by running independent tasks concurrently."
+    },
+    {
+      "front": "In the 'Video to Action' pipeline, what is the first step an agent takes with a YouTube URL?",
+      "back": "It sends the video to a multimodal model like Gemini to extract step-by-step instructions."
+    },
+    {
+      "front": "What is an 'Agent Skill' in modern AI coding platforms?",
+      "back": "A standardized, repeatable workflow for procedural knowledge stored in a folder."
+    },
+    {
+      "front": "What two fields are mandatory in the YAML front matter of a $skill.md$ file?",
+      "back": "Name and Description."
+    },
+    {
+      "front": "How does 'Progressive Disclosure' optimize token usage in agent skills?",
+      "back": "It loads only metadata (Name/Description) at startup, only reading full instructions when triggered."
+    },
+    {
+      "front": "Match Knowledge Type: Fact Retrieval",
+      "back": "Retrieval Augmented Generation (RAG)."
+    },
+    {
+      "front": "Match Knowledge Type: Tool Access and External API Interaction",
+      "back": "Model Context Protocol (MCP)."
+    },
+    {
+      "front": "Match Knowledge Type: Procedural Knowledge and Judgment",
+      "back": "Agent Skills."
+    },
+    {
+      "front": "According to Jensen Huang, what are the five components of an AI Agent?",
+      "back": "Model, Harness, Tools/Skill, Runtime, and Memory."
+    },
+    {
+      "front": "What is the 'Harness' component of an AI agent?",
+      "back": "The coordination code that executes the model's decisions, such as opening a browser."
+    },
+    {
+      "front": "What is the 'Runtime' component of an AI agent?",
+      "back": "The secure sandbox or environment that determines what an agent is permitted to do."
+    },
+    {
+      "front": "What is 'Local AI'?",
+      "back": "AI agents that live and run directly on the user's personal machine rather than strictly in the cloud."
+    },
+    {
+      "front": "What hardware specification is most critical for running large open-source agent models locally?",
+      "back": "RAM (Memory)."
+    },
+    {
+      "front": "What is an 'Agent Heartbeat'?",
+      "back": "The ability to schedule tasks, such as periodic emails scans or morning briefings, without user prompting."
+    },
+    {
+      "front": "How should users handle safety when using local AI agents with computer access?",
+      "back": "By using dedicated secondary machines, isolated emails, and auditing security logs."
+    },
+    {
+      "front": "What is the 'Iceberg Technique' in context window management?",
+      "back": "Keeping high-level instructions 'visible' while keeping large data 'submerged' and accessible via retrieval tools."
+    },
+    {
+      "front": "The 'Yorky's Dodson Curve' in AI strategy refers to the optimal balance between which two factors?",
+      "back": "Cost and Quality."
+    },
+    {
+      "front": "What is the '60/30/10 Rule' for AI agent cost optimization?",
+      "back": "Assigning 60% of tasks to 'dumb/cheap' models, 30% to mid-tier, and 10% to top-tier reasoning models."
+    },
+    {
+      "front": "What is a 'Batch API'?",
+      "back": "A service where bulk requests are processed during low-demand periods for a significant discount."
+    },
+    {
+      "front": "What is the standard ratio of words to tokens in most current LLMs?",
+      "back": "One token is approximately $0.7$ words."
+    },
+    {
+      "front": "What is 'Compaction' (or Autoco-compact) in a context window?",
+      "back": "The process of summarizing and compressing previous conversation history to fit within token limits."
+    },
+    {
+      "front": "In a SaaS lead qualifier agent, what logic is used to identify a B2B lead from an email?",
+      "back": "Extracting the domain and checking if it is a common personal provider like $gmail.com$."
+    },
+    {
+      "front": "Which Node.js tool allows managing infrastructure for AI agents on Render via a single YAML file?",
+      "back": "Render Blueprints."
+    },
+    {
+      "front": "What is the role of a 'Router' in multi-agent orchestration?",
+      "back": "It acts as a decision hub to divide a task into subtasks for specialized models to handle."
+    },
+    {
+      "front": "In Jensen Huang's keynote, what is the 'hardest part' of building an AI agent system?",
+      "back": "Memory."
+    },
+    {
+      "front": "What is the specific utility of the 'YAML Front Matter' in an AI Skill?",
+      "back": "It provides a lightweight index for the LLM to identify the skill's purpose without loading the full body."
+    },
+    {
+      "front": "What tool does an AI agent use to focus on a specific segment of text in a large code file?",
+      "back": "Grep or Globbing tools."
+    },
+    {
+      "front": "What is the 'cold start problem' for creators that AI assistants like Superhuman Go aim to solve?",
+      "back": "The difficulty of beginning a new piece of writing or project from scratch."
+    },
+    {
+      "front": "How does 'Computer Use' (Eyes) differentiate certain advanced agents?",
+      "back": "The agent can visually perceive the screen and move the mouse like a human user."
+    },
+    {
+      "front": "Which AI platform was evaluated as having the fastest 'Super Agent' performance with zero manual setup?",
+      "back": "Base 44."
+    },
+    {
+      "front": "In the verification loop, what is the role of the 'Resolver'?",
+      "back": "To implement the changes suggested by the Reviewer, often using a fresh context."
+    },
+    {
+      "front": "What is the main drawback of 'Single Agent' patterns for complex workflows?",
+      "back": "Lack of control and unreliability in multi-step logic due to non-deterministic model behavior."
+    },
+    {
+      "front": "According to the IBM source, where should a skill's executable Python or Javascript files be stored?",
+      "back": "In the $/scripts$ directory within the skill folder."
+    }
+  ]
+}

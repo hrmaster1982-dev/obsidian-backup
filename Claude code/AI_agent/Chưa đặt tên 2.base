@@ -1,0 +1,5 @@
+views:
+  - type: table
+    name: Bảng
+  - type: table
+    name: Chế độ xem

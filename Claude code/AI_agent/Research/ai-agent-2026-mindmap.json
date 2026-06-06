@@ -1,0 +1,208 @@
+{
+  "name": "AI Agents 2026",
+  "children": [
+    {
+      "name": "Definition and Core Concepts",
+      "children": [
+        {
+          "name": "AI Agent vs Chatbot",
+          "children": [
+            {
+              "name": "Chatbot: Brain only (answers questions)"
+            },
+            {
+              "name": "Agent: Brain + Hands (executes tasks)"
+            }
+          ]
+        },
+        {
+          "name": "Anatomy of an Agent",
+          "children": [
+            {
+              "name": "LLM: Reasoning engine"
+            },
+            {
+              "name": "Tools: Browser, Terminal, File System, APIs"
+            },
+            {
+              "name": "Memory: Session files and history"
+            },
+            {
+              "name": "Goals: Defined outcomes"
+            }
+          ]
+        },
+        {
+          "name": "Core Loop (Observe-Think-Act)",
+          "children": [
+            {
+              "name": "Observe: Read context and world state"
+            },
+            {
+              "name": "Think: Decide next steps/plan"
+            },
+            {
+              "name": "Act: Execute tool calls"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Major Agent Platforms",
+      "children": [
+        {
+          "name": "Claude Code (Anthropic)",
+          "children": [
+            {
+              "name": "Best for: Interpretable reasoning and code"
+            },
+            {
+              "name": "Interface: Desktop app/Terminal"
+            }
+          ]
+        },
+        {
+          "name": "Codex (OpenAI)",
+          "children": [
+            {
+              "name": "Best for: Low friction for ChatGPT users"
+            },
+            {
+              "name": "Feature: Backend and cloud sandbox"
+            }
+          ]
+        },
+        {
+          "name": "Anti-gravity (Google)",
+          "children": [
+            {
+              "name": "Best for: Visual, front-end, and multimodal work"
+            },
+            {
+              "name": "Base: Fork of VS Code using Gemini"
+            }
+          ]
+        },
+        {
+          "name": "OpenClaw (Open Source)",
+          "children": [
+            {
+              "name": "Best for: Life automation and messaging"
+            },
+            {
+              "name": "Channels: Telegram, WhatsApp, Discord"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prompt Engineering & Contracts",
+      "children": [
+        {
+          "name": "Prompt Contract Sections",
+          "children": [
+            {
+              "name": "Goal: The specific outcome"
+            },
+            {
+              "name": "Constraints: Guardrails/limitations"
+            },
+            {
+              "name": "Format: Shape of output"
+            },
+            {
+              "name": "Failure: Instructions if stuck"
+            }
+          ]
+        },
+        {
+          "name": "Advanced Techniques",
+          "children": [
+            {
+              "name": "Reverse Prompting: Clarifying questions"
+            },
+            {
+              "name": "Verification Loops: Reviewer/Resolver pattern"
+            },
+            {
+              "name": "Stochastic Consensus: Multi-agent diversity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skills and Memory",
+      "children": [
+        {
+          "name": "Agent Skills (skill.md)",
+          "children": [
+            {
+              "name": "Procedural knowledge standard"
+            },
+            {
+              "name": "Progressive disclosure loading"
+            }
+          ]
+        },
+        {
+          "name": "Long-term Memory",
+          "children": [
+            {
+              "name": "Files: claude.md, agents.mmd, gemini.md"
+            },
+            {
+              "name": "Self-modifying learning rules"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Design Patterns",
+      "children": [
+        {
+          "name": "Single Agent: Simple tasks"
+        },
+        {
+          "name": "Sequential: Assembly line workflow"
+        },
+        {
+          "name": "Parallel: Reduced latency/Multi-chrome"
+        },
+        {
+          "name": "Orchestrator: Manager and worker agents"
+        }
+      ]
+    },
+    {
+      "name": "Economics and Future",
+      "children": [
+        {
+          "name": "Machine-to-Machine Economy",
+          "children": [
+            {
+              "name": "Agent-native payments/wallets"
+            },
+            {
+              "name": "Agent-readable websites (AEO)"
+            }
+          ]
+        },
+        {
+          "name": "Context Management",
+          "children": [
+            {
+              "name": "Iceberg Technique: Strategic loading"
+            },
+            {
+              "name": "Compaction and token budgeting"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

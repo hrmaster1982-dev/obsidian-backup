@@ -1,0 +1,6 @@
+views:
+  - type: table
+    name: Bảng
+    groupBy:
+      property: date
+      direction: DESC
